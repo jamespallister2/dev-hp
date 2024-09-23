@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Design and build digital services for the NHS. Things you need to make consistent, usable services that put people first." />
+
+    <title>NHS digital service manual</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <script src="/js/main.min.js" defer></script>
+
+    <!-- Cookie consent -->
+    <script src="/js/cookies.min.js" data-policy-url="/cookie-policy" defer></script>
+
+    <!-- Adobe Analytics -->
+    
+      <!-- Data Layer -->
+      <script>
+  window.digitalData = {"page":{"pageInfo":{"pageName":"nhs:manual"},"category":{}}};
+</script>
+
+      <script src="https://assets.adobedtm.com/launch-ENe7f6cdd7cc05409b86547d9153429788.min.js" type="text/plain" data-cookieconsent="statistics" async></script>
+    
+
+    <!-- Verify domain with Google -->
+    <meta name="google-site-verification" content="Prj4LS7KX0amTkqVrOlnEyldVIjzJqbnXgPL1zbHocM" />
+
+    <link href="https://www.nhs.uk/" rel="preconnect">
+    <link href="https://assets.nhs.uk/" rel="preconnect" crossorigin>
+
+    <link rel="shortcut icon" href="/nhsuk-frontend/assets/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/nhsuk-frontend/assets/favicons/apple-touch-icon-180x180.png">
+    <link rel="mask-icon" href="/nhsuk-frontend/assets/favicons/favicon.svg" color="#005eb8">
+    <link rel="icon" sizes="192x192" href="/nhsuk-frontend/assets/favicons/favicon-192x192.png">
+    <meta name="msapplication-TileImage" content="/nhsuk-frontend/assets/favicons/mediumtile-144x144.png">
+    <meta name="msapplication-TileColor" content="#005eb8">
+    <meta name="msapplication-square70x70logo" content="/nhsuk-frontend/assets/favicons/smalltile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="/nhsuk-frontend/assets/favicons/mediumtile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="/nhsuk-frontend/assets/favicons/widetile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="/nhsuk-frontend/assets/favicons/largetile-310x310.png">
+
+    <meta property="og:url" content="https://service-manual.nhs.uk"/>
+    <meta property="og:site_name" content="nhs.uk"/>
+    <meta property="og:title" content="NHS digital service manual"/>
+    <meta property="og:description" content="Design and build digital services for the NHS. Things you need to make consistent, usable services that put people first."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="en_GB"/>
+    <meta property="og:image" content="https://service-manual.nhs.uk/assets/open-graph.png"/>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@nhsuk">
+    <meta name="twitter:creator" content="@nhsuk">
+    <meta name="twitter:image:alt" content="nhs.uk">
+
+  </head>
+
+  <body>
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
+
+    
+  
+
+
+
+
+
+<header class="nhsuk-header app-header__container" role="banner">
+  
+  <div class="nhsuk-header__container">
+    <div class="nhsuk-header__logo"><a class="nhsuk-header__link nhsuk-header__link--service " href="/" aria-label="NHS digital service manual homepage">
+        
+  <svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" height="40" width="100">
+    <path class="nhsuk-logo__background" fill="#005eb8" d="M0 0h40v16H0z"></path>
+    <path class="nhsuk-logo__text" fill="#fff" d="M3.9 1.5h4.4l2.6 9h.1l1.8-9h3.3l-2.8 13H9l-2.7-9h-.1l-1.8 9H1.1M17.3 1.5h3.6l-1 4.9h4L25 1.5h3.5l-2.7 13h-3.5l1.1-5.6h-4.1l-1.2 5.6h-3.4M37.7 4.4c-.7-.3-1.6-.6-2.9-.6-1.4 0-2.5.2-2.5 1.3 0 1.8 5.1 1.2 5.1 5.1 0 3.6-3.3 4.5-6.4 4.5-1.3 0-2.9-.3-4-.7l.8-2.7c.7.4 2.1.7 3.2.7s2.8-.2 2.8-1.5c0-2.1-5.1-1.3-5.1-5 0-3.4 2.9-4.4 5.8-4.4 1.6 0 3.1.2 4 .6"></path>
+  </svg>
+
+        <span class="nhsuk-header__service-name">
+         NHS Developer account
+                 </span>
+      </a>
+    </div>
+
+      <div class="nhsuk-header__content" id="content-header">
+        <div class="nhsuk-header__search">
+            <div class="nhsuk-header__search-wrap" id="wrap-search">
+              <form class="nhsuk-header__search-form" id="search" action="/search/" method="get" role="search">
+                <label class="nhsuk-u-visually-hidden" for="search-field">Search the NHS website</label>
+                <input class="nhsuk-search__input" id="search-field" name="search-field" type="search" placeholder="Search" autocomplete="off" >
+                <button class="nhsuk-search__submit" type="submit">
+                  <svg class="nhsuk-icon nhsuk-icon__search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M19.71 18.29l-4.11-4.1a7 7 0 1 0-1.41 1.41l4.1 4.11a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 10a5 5 0 1 1 5 5 5 5 0 0 1-5-5z"></path>
+                  </svg>
+                  <span class="nhsuk-u-visually-hidden">Search</span>
+                </button>
+              </form>
+            </div>
+          </div>
+      </div>
+
+    </div>
+    <div class="nhsuk-navigation-container">
+      <nav class="nhsuk-navigation" id="header-navigation" role="navigation" aria-label="Primary navigation">
+        <ul class="nhsuk-header__navigation-list">
+          <li class="nhsuk-header__navigation-item">
+            <a class="nhsuk-header__navigation-link"  href="http://digital.nhs.uk/services">
+             Services
+            </a>
+          </li>
+          <li class="nhsuk-header__navigation-item">
+            <a class="nhsuk-header__navigation-link"  href="https://digital.nhs.uk/data">
+              Data
+            </a>
+          </li>
+          <li class="nhsuk-header__navigation-item">
+            <a class="nhsuk-header__navigation-link"  href="https://digital.nhs.uk/cyber">
+              Cyber
+            </a>
+          </li>
+          <li class="nhsuk-header__navigation-item">
+            <a class="nhsuk-header__navigation-link"  href="https://digital.nhs.uk/developer">
+              Developer
+            </a>
+          </li>
+          <li class="nhsuk-header__navigation-item">
+            <a class="nhsuk-header__navigation-link"  href="https://digital.nhs.uk/news">
+              News
+            </a>
+          </li>
+          <li class="nhsuk-header__navigation-item nhsuk-header__navigation-item--home">
+            <a class="nhsuk-header__navigation-link"  href="/">
+              About
+            </a>
+          </li>
+          <li class="nhsuk-mobile-menu-container">
+            <button class="nhsuk-header__menu-toggle nhsuk-header__navigation-link" id="toggle-menu" aria-expanded="false">
+              <span class="nhsuk-u-visually-hidden">Browse</span>
+              More
+              <svg class="nhsuk-icon nhsuk-icon__chevron-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+    </header>
+
+
+
+    
+
+    
+
+<main id="maincontent" role="main">
+
+  <section class="nhsuk-hero">
+    <div class="nhsuk-width-container nhsuk-hero--border app-width-container">
+      <div class="nhsuk-grid-row">
+        <div class="nhsuk-grid-column-two-thirds">
+          <div class="nhsuk-hero__wrapper app-hero__wrapper">
+            <h1 class="nhsuk-u-margin-bottom-4">Design and build digital services for the NHS</h1>
+            <p class="nhsuk-body-l nhsuk-u-margin-bottom-1">Learn how to build healthcare software and integrate with our APIs - resources for product owners, delivery leads, architects, developers and more.</p>
+          </div>
+        </div>
+       <div class="nhsuk-grid-column-one-third app-latest-update">
+          <div class="nhsuk-card app-card--transparent nhsuk-u-margin-bottom-0 nhsuk-u-margin-top-0">
+            <div class="nhsuk-card__content">
+              <h2><a href="/whats-new">Developer account</a></h2>
+                      <h4><a href="https://developer.api.nhs.uk/login">Sign in</a></h4>
+<h4><a href="https://developer.api.nhs.uk/register">Create an account</a></h4>
+                      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+
+  <section class="nhsuk-section">
+    <div class="nhsuk-width-container app-width-container">
+      <ul class="nhsuk-grid-row nhsuk-card-group">
+        <li class="nhsuk-grid-column-full nhsuk-card-group__item">
+        
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card nhsuk-card--clickable">
+            <div class="nhsuk-card__content">
+              <h2 class="nhsuk-card__heading nhsuk-heading-m">API & Integration catalogue</h2>
+         
+<ul><li>                <p class="nhsuk-card__description"><a href="https://digital.nhs.uk/developer/api-catalogue">Browse the catalogue</a></p></li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card nhsuk-card--clickable">
+            <div class="nhsuk-card__content">
+             <ul> <h2 class="nhsuk-card__heading nhsuk-heading-m">Get started</h2>
+              <li><p class="nhsuk-card__description"><a href="https://digital.nhs.uk/developer/getting-started">Getting started with APIs</a></p></li></ul>
+            </div>
+          </div>
+        </li>
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card nhsuk-card--clickable">
+            <div class="nhsuk-card__content">
+              <h2 class="nhsuk-card__heading nhsuk-heading-m">About</h2><ul>
+             <li> <p class="nhsuk-card__description"> <a href="https://digital.nhs.uk/developer/guides-and-documentation/api-management-vision">About API (Vision)</p></a></li>
+             <li> <p class="nhsuk-card__description"> <a href="https://digital.nhs.uk/developer/guides-and-documentation/introduction-to-healthcare-technology">           Introduction to healthcare 
+technology</p></a></li>
+             <li> <p class="nhsuk-card__description"> <a href="https://digital.nhs.uk/developer/architecture/principles">Our architecture principles</p></a></li> 
+            
+            </div>
+          </div>
+        </li>
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card nhsuk-card--clickable">
+            <div class="nhsuk-card__content">
+              <h2 class="nhsuk-card__heading nhsuk-heading-m">Documentation and guides</h2>
+               <p class="nhsuk-card__description"> <ul>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/glossary-of-developer-terms">Glossary of developer terms</a></li>
+        <li><a href="https://digital.nhs.uk/services/reference-guide">References guide</a></li>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/a-to-z-of-developer-resources">A-Z of developer resources</a></li>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/building-healthcare-software">Building healthcare software guides</a></li>
+        <li><a href="https://digital.nhs.uk/services/reference-guide">Reference guides</a></li>
+    </ul>
+            </div>
+          </div>
+        </li>
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card nhsuk-card--clickable">
+            <div class="nhsuk-card__content">
+              <h2 class="nhsuk-card__heading nhsuk-heading-m">Design, build and test</a></h2>
+              <p class="nhsuk-card__description">  <ul>
+        <li><a href="https://digital.nhs.uk/developer/getting-started">Design and build your software</a></li>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/testing">Testing APIs</a></li>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/our-api-technologies">Our API technology</a></li>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation">Security and authorisation</a></li>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/network-access-for-apis">Network access for APIs</a></li>
+        <li><a href="https://digital.nhs.uk/services/path-to-live-environments/smartcard-management-in-the-path-to-live-environments">NHS smart cards for developers</a></li>
+    </ul>
+            </div>
+          </div>
+        </li>
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card nhsuk-card--clickable">
+            <div class="nhsuk-card__content">
+              <h2 class="nhsuk-card__heading nhsuk-heading-m">Get access</h2>
+           <ul>   <p class="nhsuk-card__description">
+        <li><a href="https://digital.nhs.uk/developer/getting-started">Onboard and integrate</a></li>
+        <li><a href="https://developer.api.nhs.uk/register">Create a developer account</a></li>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/onboarding-process-for-apis">Onboarding process for APIs</a></li>
+        <li><a href="https://digital.nhs.uk/developer/getting-started">Connect to our product</a></li>
+    </ul>
+            </div>
+          </div>
+        </li>
+              <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card nhsuk-card--clickable">
+            <div class="nhsuk-card__content">
+              <h2 class="nhsuk-card__heading nhsuk-heading-m">Policies</h2>
+              <p class="nhsuk-card__description"> <ul>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/api-policies-best-practice">API policies best practice</a></li>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement">Online connection agreement</a></li>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/end-user-organisation-acceptable-use-policy">End user organisation acceptable use policy</a></li>
+    </ul>
+            </div>
+          </div>
+        </li>
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card nhsuk-card--clickable">
+            <div class="nhsuk-card__content">
+              <h2 class="nhsuk-card__heading nhsuk-heading-m">Feedback</h2>
+              <p class="nhsuk-card__description"><ul>
+        <li><a href="https://nhs-digital-api-management.featureupvote.com/?tag=platform-phase-3">Interactive product backlog</a></li>
+    </ul>
+        </li>
+        <li class="nhsuk-grid-column-one-third nhsuk-card-group__item">
+          <div class="nhsuk-card nhsuk-card--clickable">
+            <div class="nhsuk-card__content">
+              <h2 class="nhsuk-card__heading nhsuk-heading-m">Support</h2>
+              <p class="nhsuk-card__description">  <ul>
+        <li><a href="https://developer.community.nhs.uk">Developer community</a></li>
+        <li><a href="https://digital.nhs.uk/developer/guides-and-documentation/get-help-and-support">Get help and support</a></li>
+    </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+      
+      
+
+      
+   
+  </section>
+</main>
+
+
+    
+
+    <footer role="contentinfo">
+  <div class="app-footer__container nhsuk-footer-container">
+    <div class="nhsuk-width-container">
+      <h2 class="nhsuk-u-visually-hidden">Support links</h2>
+      <ul class="nhsuk-footer__list">
+        <li class="nhsuk-footer__list-item nhsuk-footer-default__list-item"><a class="nhsuk-footer__list-item-link" href="/accessibility-statement">Accessibility statement</a></li>
+        <li class="nhsuk-footer__list-item nhsuk-footer-default__list-item"><a class="nhsuk-footer__list-item-link" href="/cookie-policy">Cookie policy</a></li>
+        <li class="nhsuk-footer__list-item nhsuk-footer-default__list-item"><a class="nhsuk-footer__list-item-link" href="/get-in-touch">Get in touch</a></li>
+        <li class="nhsuk-footer__list-item nhsuk-footer-default__list-item"><a class="nhsuk-footer__list-item-link" href="/service-manual-team">Service manual team</a></li>
+        <li class="nhsuk-footer__list-item nhsuk-footer-default__list-item"><a class="nhsuk-footer__list-item-link" href="/site-map">Site map</a></li>
+        <li class="nhsuk-footer__list-item nhsuk-footer-default__list-item"><a class="nhsuk-footer__list-item-link" href="/terms-and-conditions">Terms and conditions</a></li>
+        <li class="nhsuk-footer__list-item nhsuk-footer-default__list-item"><a class="nhsuk-footer__list-item-link" href="/whats-new">What's new</a></li>
+        <li class="nhsuk-footer__list-item nhsuk-footer-default__list-item"><a class="nhsuk-footer__list-item-link" href="/your-privacy">Your privacy</a></li>
+      </ul>
+      <div>
+        <p class="nhsuk-footer__copyright">&copy; NHS England</p>
+      </div>    
+    </div>
+  </div>
+  <div class="app-ogl-footer">
+    <div class="nhsuk-width-container app-width-container">
+      <p class="app-ogl-footer--text">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 483.2 195.7" height="17" width="41" focusable="false" >
+          <path fill="currentColor" d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"></path>
+        </svg>
+        All content is available under the <a class="nhsuk-footer__list-item-link" href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open Government Licence v3.0</a>, except where otherwise stated.
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+    
+  </body>
+
+</html>
