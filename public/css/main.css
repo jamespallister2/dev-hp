@@ -7498,3 +7498,133 @@ b {
     line-height: 1.2;
   }
 }
+
+.app-header__content {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 8px;
+}
+@media (max-width: 40.0525em) {
+  .app-header__content {
+    margin-top: 16px;
+  }
+}
+
+.app-header__account {
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  overflow: hidden;
+}
+
+.app-header__account-item {
+  align-items: start;
+  background-color: #004b93;
+  color: #ffffff;
+  display: inline-flex;
+  flex-grow: 1;
+  gap: 8px;
+  padding: 8px 16px;
+}
+.app-header__account-item:first-child {
+  flex-grow: 999;
+}
+
+.app-header__account-icon {
+  flex-shrink: 0;
+  position: relative;
+  top: 1px;
+}
+
+.app-header__account-link {
+  color: #ffffff;
+  display: block;
+  margin: -8px -16px;
+  padding: 8px 16px;
+}
+.app-header__account-link:visited {
+  color: #ffffff;
+}
+.app-header__account-link:active, .app-header__account-link:focus {
+  background-color: #ffeb3b;
+  border-bottom: 4px solid #212b32;
+  color: #212b32;
+  padding-bottom: 4px;
+}
+
+.app-header .nhsuk-header__search-form {
+  margin-top: 0;
+}
+.app-header .nhsuk-header__navigation-link[aria-current]:not(:focus):not(:active) {
+  border-bottom: 4px solid #d8dde0;
+  text-decoration: none;
+}
+.nhsuk-header__drop-down .app-header .nhsuk-header__navigation-link[aria-current]:not(:focus):not(:active) {
+  border-bottom-color: transparent;
+}
+
+.app-header__content {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 8px;
+}
+@media (max-width: 40.0525em) {
+  .app-header__content {
+    margin-top: 16px;
+  }
+}
+
+.app-header__account {
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  overflow: hidden;
+}
+
+.app-header__account-item {
+  align-items: start;
+  background-color: #004b93;
+  color: #ffffff;
+  display: inline-flex;
+  flex-grow: 1;
+  gap: 8px;
+  padding: 8px 16px;
+}
+.app-header__account-item:first-child {
+  flex-grow: 999;
+}
+
+.app-header__account-icon {
+  flex-shrink: 0;
+  position: relative;
+  top: 1px;
+}
+
+.app-header__account-link {
+  color: #ffffff;
+  display: block;
+  margin: -8px -16px;
+  padding: 8px 16px;
+}
+.app-header__account-link:visited {
+  color: #ffffff;
+}
+.app-header__account-link:active, .app-header__account-link:focus {
+  background-color: #ffeb3b;
+  border-bottom: 4px solid #212b32;
+  color: #212b32;
+  padding-bottom: 4px;
+}
+
+.app-header .nhsuk-header__search-form {
+  margin-top: 0;
+}
+.app-header .nhsuk-header__navigation-link[aria-current]:not(:focus):not(:active) {
+  border-bottom: 4px solid #d8dde0;
+  text-decoration: none;
+}
+.nhsuk-header__drop-down .app-header .nhsuk-header__navigation-link[aria-current]:not(:focus):not(:active) {
+  border-bottom-color: transparent;
+}
